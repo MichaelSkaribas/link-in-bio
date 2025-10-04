@@ -1,6 +1,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       html {
         min-height: 100%;
@@ -9,12 +10,16 @@
         min-height: 100%;
         padding-top: 40px;
         padding-bottom: 40px;
-        background: linear-gradient(90deg, #970000, #8b180b, #7f2414, #722b1c, #653023, #58342b, #493732, #393939);
+        background: linear-gradient(180deg, #970000, #8b180b, #7f2414, #722b1c, #653023, #58342b, #493732, #393939);
         color: rgba(255, 255, 255, 1.0)
       }
 
       a {
         color: rgba(255, 255, 255, 1.0)
+      }
+
+      .item{
+        background-color: rgba(255, 38, 38, 0.3);
       }
 
       .avatar-image {
@@ -28,6 +33,36 @@
         height: 48px;
         object-fit: cover;
         border-radius: 48px;
+      }
+      
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+      
+      .image-row {
+        margin-bottom: 20px;
+      }
+
+      .name-row {
+        margin-bottom: 30px;
+      }
+
+      .social-icons-row {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+      }
+
+      .item {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
       }
     </style>
   </head>
@@ -59,14 +94,14 @@
       <div class= "links-row">
         <div class="item">
           <img class="thumbnail" src="Images/IMG-4888.JPG">
-          <a target="_blank" href="https://www.youtube.com/watch?v=zSuBPBwDTHs">
+          <a class= "link-text" target="_blank" href="https://www.youtube.com/watch?v=zSuBPBwDTHs">
             Rock Covers
           </a>
         </div>
 
         <div class="item">
           <img class="thumbnail" src="Images/sig.jpeg">
-          <a target="_blank" href="https://www.instagram.com/uchicago.sig/?hl=en">
+          <a class= "link-text" target="_blank" href="https://www.instagram.com/uchicago.sig/?hl=en">
             UChicago Sustainable Investing Group
           </a>
         </div>
