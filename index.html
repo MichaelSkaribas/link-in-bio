@@ -2,6 +2,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Ultra&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
     <style>
       html {
         min-height: 100%;
@@ -11,11 +15,13 @@
         padding-top: 40px;
         padding-bottom: 40px;
         background: linear-gradient(180deg, #970000, #8b180b, #7f2414, #722b1c, #653023, #58342b, #493732, #393939);
-        color: rgba(255, 255, 255, 1.0)
+        color: rgba(255, 255, 255, 1.0);
+        font-family: "Ultra";
       }
 
       a {
-        color: rgba(255, 255, 255, 1.0)
+        color: rgba(255, 255, 255, 1.0);
+        text-decoration: none;
       }
 
       .item{
@@ -23,9 +29,10 @@
       }
 
       .avatar-image {
-        width: 128px;
-        height: 128px;
+        width: 200px;
+        height: 200px;
         object-fit: cover;
+        border-radius: 100px;
       }
 
       .thumbnail {
@@ -42,10 +49,15 @@
       
       .image-row {
         margin-bottom: 20px;
+        text-align: center;
       }
 
       .name-row {
         margin-bottom: 30px;
+        text-align: center;
+        font-family: "Quintessential";
+        font-size: 24px;
+        font-weight: 900;
       }
 
       .social-icons-row {
@@ -58,6 +70,10 @@
         margin-bottom: 20px;
         display: flex;
         align-items: center;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(122,32,122,.5);
       }
 
       .link-text {
@@ -70,7 +86,7 @@
     <div class= "main-container">
       
       <div class="image-row">
-        <img class= "avatar-image" src="Images/IMG_2820.jpg">
+        <img class= "avatar-image" src="Images/IMG_2820 (1).jpg">
       </div>
       
       <div class= "name-row">
@@ -79,15 +95,15 @@
 
       <div class= "social-icons-row">
         <a href="https://www.linkedin.com/in/michael-skaribas-419737256/" target="_blank">
-          LinkedIn
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
         </a>
 
         <a href="https://github.com/MichaelSkaribas" target="_blank">
-          Github
+          <i class="fa-brands fa-github"></i> Github
         </a>
         
         <a href="https://www.instagram.com/michaelskaribas/" target="_blank">
-          Instagram
+          <i class="fa-brands fa-instagram"></i> Instagram
         </a>
       </div>
 
